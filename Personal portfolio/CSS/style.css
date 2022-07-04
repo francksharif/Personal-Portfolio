@@ -1,0 +1,744 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+h2 {
+  text-transform: uppercase;
+  margin-top: 2.4rem;
+  color: #000;
+}
+
+/******************/
+/****HEADER********/
+/******************/
+
+.header {
+  height: 100vh;
+  background-color: #1c1e22;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1.2rem;
+  margin-bottom: 8.6rem;
+}
+
+.navigation-bar ul {
+  display: flex;
+  align-items: center;
+  gap: 3.6rem;
+  list-style: none;
+}
+
+.navigation-bar ul li a {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 550;
+  text-transform: uppercase;
+}
+
+.navigation-bar ul li a img {
+  filter: brightness(0) invert(1);
+}
+
+.hero-page-welcome {
+  text-align: center;
+  color: #a4a5a7;
+}
+
+.hero-page-welcome h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4.2rem;
+  letter-spacing: 2px;
+  margin-bottom: 1.4rem;
+}
+
+.hero-page-welcome h1 span {
+  color: #fb8122;
+}
+
+.hero-page-welcome p {
+  font-size: 1.4rem;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 3.2rem;
+}
+
+.hero-page .hero-page-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+.hero-page .hero-page-btn button {
+  width: 140px;
+  height: 50px;
+  border-radius: 2px;
+  border: none;
+}
+.hero-page .hero-page-btn button a:link,
+.hero-page .hero-page-btn button a:visited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  gap: 0.4rem;
+  color: #000;
+}
+
+.hero-page .hero-page-btn .btn-1 {
+  background-color: #fb8122;
+  transition: ease-out 0.4s;
+  outline: none;
+}
+
+.hero-page .hero-page-btn .btn-2 {
+  background-color: #fff;
+  transition: ease-out 0.4s;
+  outline: none;
+}
+
+.hero-page .hero-page-btn .btn-1:hover {
+  box-shadow: inset 300px 0 0 0 #fff;
+  cursor: pointer;
+}
+
+.hero-page .hero-page-btn .btn-2:hover {
+  box-shadow: inset 300px 0 0 0 #fb8122;
+  cursor: pointer;
+}
+
+/*******************/
+/***Projects Section*/
+/*******************/
+
+.projects {
+  height: 100vh;
+}
+
+.projects h2 {
+  font-size: 3.2rem;
+  text-align: start;
+  margin-left: 3.2rem;
+  margin-top: 9.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.projects-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+.projects .projects-elements .projects-elements-left img {
+  width: 560px;
+  height: 320px;
+  border: 1px solid #a4a5a7;
+}
+
+.projects .projects-elements .projects-elements-right {
+  width: 560px;
+  height: 430px;
+  padding: 2.8rem 0;
+}
+.projects-elements .projects-elements-right .right-elements-languages {
+  margin-bottom: 1rem;
+}
+
+.projects-elements-right .projects-description p {
+  line-height: 1.4;
+  margin-bottom: 1.4rem;
+}
+
+.projects .projects-elements .projects-elements-right h3 {
+  margin: 1.2rem 0;
+  text-decoration: underline;
+}
+.projects .projects-elements .projects-elements-right span {
+  color: #a4a5a7;
+}
+.projects .projects-elements .projects-elements-right .languages {
+  color: #000;
+}
+.projects-elements-right .projects-btn {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1.2rem;
+}
+.projects-elements-right .projects-btn button {
+  width: 110px;
+  height: 40px;
+  border-radius: 2px;
+  border: none;
+}
+
+.projects-elements-right .projects-btn a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+}
+.projects-elements-right .projects-btn .btn-1 {
+  background-color: #fb8122;
+  transition: all 0.3s;
+}
+
+.projects-elements-right .projects-btn .btn-2 {
+  border: 1px solid #a4a5a7;
+  transition: all 0.3s;
+}
+
+.projects-elements-right .projects-btn .btn-1:hover {
+  box-shadow: 2px 2px #a4a5a7;
+}
+.projects-elements-right .projects-btn .btn-2:hover {
+  box-shadow: 2px 2px #fb8122;
+}
+
+/*******************/
+/*****Skills Section*/
+/**********************/
+.skills {
+  height: 100vh;
+  background-color: #000;
+  margin-bottom: 4.8rem;
+}
+
+.skills h2 {
+  color: #fb8122;
+  padding-top: 2.4rem;
+  margin-bottom: 3.2rem;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.skills p {
+  color: #a4a5a7;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.skills-container {
+  padding-top: 2.4rem;
+}
+
+.skills-container .skills-icons span {
+  color: #fff;
+}
+
+.skills-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.skills-container .skills-icons {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 0.2fr);
+  justify-content: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.skills-container .skills-icons li {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.2rem;
+  gap: 0.5rem;
+}
+/*****************/
+/***EDUCATION SECTION**/
+/****************/
+.education {
+  width: 100%;
+  height: 100%;
+}
+.education h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 4.6rem;
+  color: #fb8122;
+}
+
+.education-container {
+  text-align: center;
+}
+/*****************/
+/***GIT SECTION**/
+/****************/
+.get-in-touch {
+  height: 110vh;
+  margin-bottom: 9.6rem;
+}
+.get-in-touch h2 {
+  font-size: 2.4rem;
+}
+.get-in-touch {
+  text-align: center;
+}
+
+.get-in-touch .container {
+  width: 80%;
+  border: 1px solid #1c1e22;
+  margin: 0 auto;
+  box-shadow: 0 0.15rem 0.6rem rgba(26, 27, 27, 0.15);
+}
+
+.get-in-touch p {
+  margin: 1.2rem 0;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.git-form {
+  margin: 0 auto;
+  width: 50%;
+  padding: 1.5rem;
+}
+
+.git-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.git-form form input {
+  height: 2.4rem;
+  padding: 1rem;
+  border: 1px solid #000;
+  font-family: inherit;
+  border-radius: 2px;
+}
+
+.git-form form textarea {
+  height: 12rem;
+  padding: 1rem;
+  resize: vertical;
+  border: 1px solid #000;
+  border-radius: 2px;
+  font-family: inherit;
+}
+
+.git-form .git-btn {
+  width: 110px;
+  height: 40px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  background-color: #fb8122;
+  color: #000;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.git-form .git-btn:hover {
+  box-shadow: inset 400px 0 0 0 #1c1e22;
+  color: #fff;
+}
+
+.git-contacts {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.4rem;
+  margin: 1.2rem;
+}
+
+.git-contacts span img {
+  transition: all 0.4s;
+}
+
+.git-contacts span img:hover {
+  color: #fb8122;
+}
+
+/********************/
+/****FOOTER*********/
+/******************/
+.footer {
+  background-color: #1c1e22;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-container p {
+  color: #a4a5a7;
+}
+/****************************************************************/
+/**************************RESPONSIVE****************************/
+/*****************************************************************/
+
+@media (max-width: 567px) {
+  /**************/
+  /**HEADER******/
+  /****************/
+  body {
+    min-width: 100%;
+  }
+  .header {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1.8rem;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.6rem;
+  }
+
+  .navigation-bar ul {
+    gap: 0.2rem;
+  }
+
+  .navigation-bar ul .navigation-bar-element a {
+    font-size: 0.75rem;
+  }
+  .navigation-bar ul .navigation-bar-element a img {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+
+  .hero-page-welcome h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .hero-page-welcome p {
+    font-size: 1rem;
+  }
+  /**************/
+  /***PROJECTS***/
+  /***************/
+  .projects {
+    height: fit-content;
+    padding: 2.4rem;
+  }
+
+  .projects h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 3.2rem;
+  }
+
+  .projects-elements {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  .projects .projects-elements .projects-elements-left {
+    padding: 0 4.2rem;
+  }
+  .projects .projects-elements .projects-elements-left img {
+    width: 450px;
+    height: 220px;
+  }
+  .projects .projects-elements .projects-elements-right {
+    text-align: center;
+    padding: 0 4.2rem;
+    font-size: 1rem;
+  }
+
+  .projects-elements-right .projects-btn {
+    justify-content: center;
+  }
+
+  /*******************/
+  /******SKILLS******/
+  /******************/
+
+  .skills h2 {
+    font-size: 1.8rem;
+  }
+  .skills {
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 4.8rem;
+  }
+
+  .skills p {
+    color: #a4a5a7;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .skills-container .skills-icons {
+    grid-template-columns: repeat(3, 0.2fr);
+    gap: 0.4rem;
+  }
+  .skills-container .skills-icons li img {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  /******************/
+  /****GET IN TOUCH***/
+  /******************/
+
+  .get-in-touch {
+    height: 100%;
+  }
+  .get-in-touch h2 {
+    font-size: 1.8rem;
+  }
+  .get-in-touch {
+    text-align: center;
+  }
+
+  .get-in-touch .container {
+    width: 80%;
+    border: 1px solid #1c1e22;
+    margin: 0 auto;
+    box-shadow: 0 0.15rem 0.6rem rgba(26, 27, 27, 0.15);
+  }
+
+  .get-in-touch p {
+    margin: 1.2rem 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+
+  .git-form {
+    margin: 0 auto;
+    width: 80%;
+    padding: 0.5rem;
+  }
+
+  .git-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+  }
+  .git-form form input {
+    height: 1.2rem;
+    padding: 0.5rem;
+  }
+
+  .git-form form textarea {
+    height: 8rem;
+    padding: 1rem;
+  }
+
+  .git-form .git-btn {
+    width: 80px;
+    height: 30px;
+    font-size: 0.7rem;
+  }
+
+  .git-contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    margin: 1.2rem;
+  }
+
+  /******************/
+  /****FOOTER********/
+  /******************/
+  .footer-container p {
+    height: fit-content;
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 568px) and (max-width: 1024px) {
+  /**************/
+  /**HEADER******/
+  /****************/
+  .header {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1.8rem;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.6rem;
+  }
+
+  .navigation-bar ul {
+    gap: 0.2rem;
+  }
+
+  .navigation-bar ul .navigation-bar-element a {
+    font-size: 1rem;
+  }
+  .navigation-bar ul .navigation-bar-element a img {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .hero-page-welcome h1 {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  .hero-page-welcome p {
+    font-size: 1.2rem;
+  }
+  /**************/
+  /***PROJECTS***/
+  /***************/
+  .projects {
+    height: fit-content;
+    padding: 2.4rem;
+  }
+
+  .projects h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3.2rem;
+  }
+
+  .projects-elements {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  .projects .projects-elements .projects-elements-left {
+    padding: 0 2.1rem;
+  }
+  .projects .projects-elements .projects-elements-left img {
+    width: 500px;
+    height: 280px;
+  }
+  .projects .projects-elements .projects-elements-right {
+    text-align: center;
+    padding: 0 2.1rem;
+    font-size: 1rem;
+  }
+
+  .projects-elements-right .projects-btn {
+    justify-content: center;
+  }
+
+  /*******************/
+  /******SKILLS******/
+  /******************/
+
+  .skills h2 {
+    font-size: 2rem;
+  }
+  .skills {
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 4.8rem;
+  }
+
+  .skills p {
+    color: #a4a5a7;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .skills-container .skills-icons {
+    grid-template-columns: repeat(4, 0.3fr);
+    gap: 0.4rem;
+  }
+  .skills-container .skills-icons li img {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+
+  /******************/
+  /****GET IN TOUCH***/
+  /******************/
+
+  .get-in-touch {
+    height: 100%;
+  }
+  .get-in-touch h2 {
+    font-size: 2rem;
+  }
+  .get-in-touch {
+    text-align: center;
+  }
+
+  .get-in-touch .container {
+    width: 80%;
+    border: 1px solid #1c1e22;
+    margin: 0 auto;
+    box-shadow: 0 0.15rem 0.6rem rgba(26, 27, 27, 0.15);
+  }
+
+  .get-in-touch p {
+    margin: 1.2rem 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+
+  .git-form {
+    margin: 0 auto;
+    width: 80%;
+    padding: 0.5rem;
+  }
+
+  .git-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+  }
+  .git-form form input {
+    height: 1.2rem;
+    padding: 1rem;
+  }
+
+  .git-form form textarea {
+    height: 10rem;
+    padding: 1rem;
+  }
+
+  .git-form .git-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 0.9rem;
+  }
+
+  .git-contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    margin: 1.2rem;
+  }
+
+  /******************/
+  /****FOOTER********/
+  /******************/
+  .footer-container p {
+    height: fit-content;
+    font-size: 0.7rem;
+  }
+}
